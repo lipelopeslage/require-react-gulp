@@ -1,0 +1,24 @@
+{
+  "name": "require-react-gulp",
+  "version": "0.0.1",
+  "description": "Exemplo que utiliza JSX (React) compilado via gulp. Extensão do repositório https://github.com/lipelopeslage/require-react",
+  "author": "Felipe Lopes Lage <felipelopeslage@hotmail.com>",
+  "main": "js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lipelopeslage/require-react-gulp"
+  },
+  "keywords": [
+    "requirejs",
+    "react",
+    "jsx"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "react-addons": "*",
+    "react-dom": "*",
+    "gulp":"*",
+    "gulp-react":"*",
+    "bootstrap": "*"
+  }
+}

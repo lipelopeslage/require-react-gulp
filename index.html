@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplo utilizando sintaxe sugar do ReactJS com RequireJS. Os arquivos .jsx são compilados via gulp</title>
+	
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+	<!--<script src="node_modules/jquery/dist/jquery.min.js"></script>-->
+    <script src="node_modules/react/dist/react-with-addons.min.js"></script>
+    <script src="node_modules/react-dom/dist/react-dom.min.js"></script>
+    <!--<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  -->
+
+    <script data-main="js/main" src="http://requirejs.org/docs/release/2.2.0/minified/require.js"></script>
+	<style>
+		body{
+			visibility: hidden;
+		}
+		.module-holder{
+			padding-bottom: 100px;
+		}
+		.module-holder a{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<main class="container text-center"></main>
+	<footer class="container text-center">
+		This is an extension from my<a href="https://github.com/lipelopeslage/require-react" target="_blank"> Require-React</a> repository.
+	</footer>
+</body>
+</html>
