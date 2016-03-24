@@ -4,9 +4,9 @@ requirejs.config({
 		index: 'sections/index',
 		about: 'sections/about',
 		contact: 'sections/contact',
-		indexComponent: 'components/js/indexComponent',
-		aboutComponent: 'components/js/aboutComponent',
-		contactComponent: 'components/js/contactComponent'
+		indexComponent: 'components/js/IndexComponent',
+		aboutComponent: 'components/js/AboutComponent',
+		contactComponent: 'components/js/ContactComponent'
 	}
 });
 
